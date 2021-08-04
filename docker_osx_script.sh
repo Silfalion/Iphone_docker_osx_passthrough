@@ -5,8 +5,6 @@ sudo docker run -it \
         --name $containerName \
         -p 50922:10022 \
         -v "${PWD}/output.env:/env" \
-        -v "${SHARE}:/mnt/hostshare" \
-        -e OSX_COMMANDS="echo alpine | sudo -S mount_9p hostshare && /bin/bash" \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
         -e "DISPLAY=${DISPLAY:-:0.0}" \
         -e SMP=4 \
