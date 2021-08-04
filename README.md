@@ -10,6 +10,8 @@ In case you don't want to use the unbind right away, the binding script returns 
 
 # CREDIT
 
+- https://github.com/mikob
+- https://github.com/reinismu
 - https://github.com/sickcodes/Docker-OSX
 - https://github.com/foxlet/vmra1n
 - https://github.com/andre-richter/vfio-pci-bind
