@@ -10,17 +10,17 @@ In case you don't want to use the unbind right away, the binding script returns 
 
 # CREDIT
 
-- https://github.com/foxlet/vmra1n/edit/master/README.md
+- https://github.com/foxlet/vmra1n
 - https://github.com/andre-richter/vfio-pci-bind
 
 # Steps
 
 We first need to make sure our OS can passthrough to a guest:
 
-## Enable BIOS Features (Credit foxlet, vmra1n repo)
+## Enable BIOS Features (Credit foxlet, [vmra1n repo](https://github.com/foxlet/vmra1n))
 Boot into your firmware settings, and turn on AMD-V/VT-x, as well as iommu (also called AMD-Vi, VT-d, or SR-IOV).
 
-## Enable Kernel Features(Credit foxlet, vmra1n repo)
+## Enable Kernel Features(Credit foxlet, [vmra1n repo](https://github.com/foxlet/vmra1n))
 The `iommu` kernel module is not enabled by default, but you can enable it on boot by passing the following flags to the kernel.
 
 ### AMD
