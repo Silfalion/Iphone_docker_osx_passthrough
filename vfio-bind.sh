@@ -203,7 +203,7 @@ printf "\nls -l /dev/vfio/\n"
 ls -l /dev/vfio/
 
 echo "-----------------IMPORTANT-----------------"
-echo "to unbind run the following script:"
+echo "to unbind run the following lines:"
 
 readarray -t array <<<"$DRIVER_DATA"
 
