@@ -89,4 +89,4 @@ sudo ./workingMacosVm_without_image.sh 0000:XX:XX.X
 
 Where XX:XX.X is the number you noted in the [Getting usb controller Id section](#getting_usb_controller).
 
-And that's all, your VM should start normally after that and your iphone/usb device detected with trouble
+And that's all, your VM should start normally after that and your iphone/usb device should be detected without trouble
